@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $azul-escuro;
+  margin: 0;
+  padding: 1.5rem 24px;
+
+  &__lista {
+    padding: 0;
+    display: flex;
+    // width: 100%;
+    gap: 1em;
+    flex-shrink: 1;
+
+    img {
+      width: 24px;
+    }
+  }
+
+  p {
+    white-space: nowrap;
+    color: $cor-do-texto;
+    font-family: $fonte-normal;
+  }
+}
